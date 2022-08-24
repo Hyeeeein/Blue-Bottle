@@ -1,0 +1,313 @@
+html,body{text-size-adjust: none; font-size: 16px;}
+a{display: block;}
+body{overflow-x: hidden;}
+
+/* header */
+.header{
+    height: 70px;
+    background-color: #242424;
+    position: relative;
+}
+
+.header h1{
+    height: 70px; 
+    width: 150px;
+    margin: auto;
+    text-indent: -99999px;
+    font-size: 0;
+    background: url(../img/icon/text-logo.png) no-repeat center;
+    background-size: auto 31px;
+}
+.header h1 a{height: 100%;}
+
+.header .home-btn{
+    text-indent: -99999px;
+    font-size: 0;
+    width: 36px;
+    height: 34px;
+    background: url(../img/icon/toplogo.png) no-repeat center / 12px auto;
+    position: absolute; left: 20px; top: 18px;
+}
+
+.header .menu-btn{
+    text-indent: -99999px;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    background: url(../img/icon/menu-btn.png) no-repeat center / 29px auto;
+    position: absolute; right: 16px; top: 12px;
+}
+
+.main-banner li{position: relative;}
+.main-banner li img{width: 100%;}
+.main-banner li a{
+    position: absolute;
+    width: 38.055vw; height: 10.277vw;
+    background-color: #fff;
+    text-align: center; 
+    bottom: 17.777vw; left: 50%; transform: translateX(-50%);
+    font-size: 3.88vw; line-height: 10.277vw;
+}
+
+/* 구독하기 */
+.subscribe-area{
+    padding: 12.222vw 0;
+}
+.subscribe-area .subscribe-title{
+    font-size: 4.44vw; 
+    color: #36373b;
+    text-align: center;
+    line-height: 1.79;
+    margin-bottom: 3.888vw;
+}
+.subscribe-area .subscribe-list li {
+    text-align: center;
+    margin-bottom: 3.33vw;
+}
+.subscribe-area .subscribe-list li img{
+    width: 73.88vw;
+}
+.subscribe-area .subscribe_btn{
+    background-color: #36373b;
+    color: #fff;
+    width: 64.72vw; height: 16.38vw;
+    font-size: 4.44vw;
+    text-align: center;
+    line-height: 16.389vw;
+    margin: 5.55vw auto 0;
+}
+
+/* 메뉴영역 */
+.menu-area{
+    background: url(../img/menu-bg.png) no-repeat top center / cover;
+    padding: 16.111vw 4.444vw 14.722vw;
+}
+.menu-area .menu-title{
+    font-size: 8.055vw;
+    color: #f1f1f1;
+    text-align: center;
+    padding-top: 4.44vw;
+    position: relative;
+}
+.menu-area .menu-title::before{
+    content: ''; display: block;
+    position: absolute; 
+    top: 0; left: 50%; transform: translate(-50%);
+    background-color: #1da4d9;
+    width: 10.83vw; height: 1.389vw;
+}
+.menu-area .menu-title-sub{
+    color: #1da4d9;
+    text-align: center;
+    margin-top: 3.889vw;
+    font-size: 3.889vw;
+    margin-bottom: 8.88vw;
+}
+
+.menu-area .menu-list>li{
+    float: left;
+    width: calc(50% - 9px);
+}
+
+.menu-area .menu-list>li:nth-child(2n+1){margin-right: 9px;}
+.menu-area .menu-list>li:nth-child(2n){margin-left: 9px;}
+.menu-area .menu-list>li img{width: 100%;}
+.menu-area .menu-list>li span{display: block;}
+.menu-area .menu-list>li .menu-thum-txt{
+    text-align: center;
+    color: #a1a1a1;
+    padding: 3.889vw 0;
+    line-height: 3.611vw;
+}
+.menu-area .menu-list>li .menu-thum-txt strong{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+}
+.menu-area .menu-allview-btn {
+    margin: auto;
+    color: #fff;
+    border: 1px solid #464646;
+    background-color: #1da4d9;
+    width: 45.55vw; height: 13.35vw;
+    margin-top: 11.66vw; line-height: 13.35vw;
+    font-size: 3.6vw; text-align: center;
+}
+
+/* 베스트 영역 */
+.best-menu{
+    padding: 10.556vw 4.444vw 7.778vw;
+    background-color: #ebebeb;
+}
+.best-menu-area .best-menu-title::before{
+    content:''; 
+    display: block; 
+    background-color: #36373b;
+    width: 10.278vw; height: 1.667vw;
+    margin-bottom: 4.444vw;
+}
+.best-menu-area .best-menu-title{
+    color: #36373b;
+    font-size: 5.833vw;
+}
+.best-menu-area .best-menu-sub{
+    color: #5e6068;
+    font-size: 3.611vw;
+    padding-top: 4.167vw;
+}
+.best-menu-area .best-menu-img{
+    background: url(../img/bestmenu1.png) no-repeat center / cover;
+    height: 124.722vw;
+    margin-top: 4.722vw;
+    font-size: 0;
+}
+.best-menu-area .best-menu-txt{
+    background-color: #fff;
+    color: #606367;
+    line-height: 5.278vw;
+    padding: 4.722vw 8.333vw 6.111vw;
+}
+.best-menu-area .best-menu-txt p:nth-of-type(1){
+    font-size: 5.278vw; 
+}
+.best-menu-area .best-menu-txt p:nth-of-type(2){
+    font-size: 3.056vw; 
+    margin-top: 4.167vw;
+}
+
+.best-menu-area .best-menu-dot{
+    text-align: center;
+    margin-top: 6.944vw;
+}
+.best-menu-area .best-menu-dot div{
+    width: 16px; height: 16px;
+    border-radius:50%;
+    background-color: #dddd;
+    margin: 0 1.667vw;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.best-menu-area .best-menu-dot div:first-child{
+    background-color: #fff;
+}
+
+/* 커피 매치 */
+.match{
+    padding: 8.889vw 4.444vw;
+    background-color: #242424;
+}
+.match-area img{
+    width: 100%; /* 넓이값 따로 주지말고 100%로!!! */
+    height: 71.389vw;
+}
+.match-area .match-bottom{
+    background-color: #fff;
+    text-align: center;
+    height: 71.389vw;
+}
+.match-area .match-bottom h3{
+    color: #575756;
+    font-size: 10.278vw;
+    padding-top: 15.556vw;
+}
+.match-area .match-bottom p{
+    color: #575756;
+    font-size: 3.611vw;
+    padding-top: 8.333vw;
+}
+.match-area .match-bottom a{
+    font-size: 4.167vw;
+    display: inline-block;
+    background-color: #00a1df;
+    width: 46.944vw;
+    height: 15.833vw;
+    padding-top: 5.833vw;
+    box-sizing: border-box;
+    margin-top: 9.722vw;
+    color: #fff;
+}
+
+/* 매장 */
+.findbb-top{
+    text-align: center;
+    margin-top: 8.611vw;
+    margin-bottom: 16.389vw;
+}
+.findbb-top h3{
+    font-weight: bold;
+    color: #00a1df;
+    font-size: 8.889vw;
+    line-height: 10vw;
+    margin-bottom: 8.889vw;
+}
+.findbb-top p{
+    color: #666;
+    font-size: 4.722vw;
+}
+.findbb-middle{
+    padding: 0 13.889vw;
+}
+.depth>h3{
+    display: inline-block;
+    color: #fff;
+    background-color: #afafaf;
+    padding: 1.389vw;
+    font-size: 5vw;
+    margin-bottom: 4.444vw;
+}
+.depth1{
+    margin-bottom: 8.889vw;
+}
+.findbb-middle-txt1>li{
+    float: left;
+    font-size: 4.167vw;
+    color: #666;
+    margin-right: 2.778vw;
+}
+.findbb-middle-txt1>li:last-child{
+    margin-right: 0;
+}
+.findbb-middle-text2>li{
+    float: left;
+    font-size: 4.167vw;
+    color: #666;
+}
+.findbb-middle-text2>li:nth-child(2n-1){
+    margin-right: 2.778vw;
+}
+.findbb-middle-text2>li:nth-child(1){
+    margin-bottom: 5px;
+}
+.findbb-middle-text2>li:nth-child(2){
+    margin-bottom: 5px;
+}
+.findbb .findbb-btn{
+    background-color: #00a1df;
+    width: 47.222vw;
+    height: 15.833vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10.833vw 26.389vw 13.333vw;
+    color: #fff;
+}
+
+.findbb-bottom{
+    position: relative;
+}
+.findbb-bottom img{
+    width: 84.167vw;
+    height: 76.389vw;
+    margin: 0 8.056vw 15vw;
+}
+.findbb-bottom p{
+    display: inline-block;
+    background-color: #00a1df;
+    color: #fff;
+    font-size: 2.500vw;
+    padding: 1.667vw;
+    position: absolute;
+    top: 2.778vw; right: 11.111vw;
+}
+
+/* 푸터 */
